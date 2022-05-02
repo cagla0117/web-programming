@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> 
+			Çağla Mıdıklı's Web Page 
+		</title>
+	       
+		<link rel = "stylesheet" type = "text/css" href = "15_11_2021.css" />
+	      
+	</head>
+	<!--Linking Eexternal CSS rules starts here
+	
+	
+	<style type = "text/css">
+		h1	{
+				font-size: 36pt;
+				color: red;
+				text-decoration: underline;
+				font-family: tahoma, helvetica, sans-serif;
+			}
+		em	{
+				font-style: normal;
+				color: green;
+				background-color: lightgrey;
+				font-weight: bold;
+			}
+	</style>
+	
+	--> 	
+
+	<body onload="document.body.style.backgroundColor='pink'; sayHello()"
+	onresize="document.body.style.backgroundColor='lightblue'"
+	onkeydown="document.body.style.backgroundColor='white'"
+	onkeyup="document.body.style.backgroundColor='red'">
+		<p>
+			<strong> Introduction to Information System </strong>
+		</p>
+
+		<p class = "centered" onmouseover='document.querySelector(".centered").style.font="bold 20pt arial,serif"'
+					onmouseout='document.querySelector(".centered").style.font="bold 10pt arial,serif"'>
+			<em>
+			Çağla Mıdıklı
+			<br>
+			150200011
+			</em>
+
+		</p>
+
+		<p> Evoulation of homo species </p>
+			<ul id='ul-01' onmouseover="document.getElementById('ul-01').style.backgroundColor='purple'">
+				<li> Homo habilis (able man) </li>
+				<li> Homo erectus (upright man) </li>
+				<li> Homo neanderthalensis </li>
+				<li> Homo floresiensis (hobbit) </li>
+				<li> Homo sapiens (wise man) </li>
+				<ul id='ul-02' onclick="document.getElementById('ul-02').style.backgroundColor='orange'">
+					<li> Homo sapiens sapiens </li>
+				</ul>
+			</ul>
+			<h1 onmouseover="style.color='orange'; style.backgroundColor='lightgreen'"
+			onmouseout="style.color='red'; style.backgroundColor='white'"> 
+			<strong> Human Evolution </strong>  </h1>
+			<p> 
+				<img src="evolution-diagram.png" />
+			</p>
+
+			<p> 
+				You can find the source of the image by clicking the link
+				<a href="https://www.biologyonline.com/dictionary/homo-sapiens-sapiens">Biology Online. </a>
+				
+			</p>
+			
+			<h2> <strong> The clickable image </strong>  </h2>
+			<p> 
+				The image below is a link, try it.
+				<a href="https://www.biologyonline.com/dictionary/homo-sapiens-sapiens"> 
+					<img id='img-01' alt= "Yoy are about the leave our webpage" 
+					onclick="alert(document.getElementById('img-01').alt)"
+					src="evolution-diagram.png"/>
+				</a>
+				
+			</p>
+			<table>
+				<tr>
+					<th> Homo Habilis          </th>
+					<th> Homo  erectus         </th>
+					<th> Homo neanderthalansis </th>
+					<th> Homo sapiens          </th>
+				</tr>
+				<tr>
+					<td> Handy Man             </td>
+					<td> Upright Man           </td>
+					<td> Neanderthal Man       </td>
+					<td> Wise Man              </td>
+				</tr>
+				<tr>
+					<td> ∼2.3–1.65 million years ago     </td>
+					<td>  ∼2 million years ago        </td>
+					<td> ∼40,000 years ago       </td>
+					<td> ∼13.000 years ago to today          </td>
+				</tr>
+			</table>
+			<pre>
+								What are homo sapiens?
+					Homo sapiens is the species of all the highly developed primates on earth, a category that living human belong to.
+							These primates include humans,
+										apes,
+										lorises,
+										lemurs,
+										monkeys.
+			</pre>
+			<script>
+				function sayHello(){
+					alert("Welcome abroad!");}
+			</script>
+
+			
+
+			
+			
+
+	</body>
+
